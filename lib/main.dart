@@ -41,7 +41,7 @@ class _HLSPlayerPageState extends State<HLSPlayerPage> {
 
   Future<void> _initializePlayer() async {
     _controller = VideoPlayerController.network(
-        "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8"
+        // "https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8"
         // "https://cbtvnow.com:5866/hls/livest2024.m3u8"
         // "https://d1zx6l1dn8vaj5.cloudfront.net/out/v1/b89cc37caa6d418eb423cf092a2ef970/index.m3u8"
         // "https://playout172.livextend.cloud/liveiframe/_definst_/ngrp:liveartvabr_abr/playlist.m3u8"
@@ -57,7 +57,7 @@ class _HLSPlayerPageState extends State<HLSPlayerPage> {
         // "https://cdn.jmvstream.com/w/LVW-8503/LVW8503_d0V5oduFlK/playlist.m3u8",
         // "https://ythls.armelin.one/channel/UCJElRTCNEmLemgirqvsW63Q.m3u8",
         // "https://30a-tv.com/feeds/vidaa/golf.m3u8",
-        // "https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8"
+        "https://sgn-cdn-video.vods2africa.com/Tv-Zimbo/index.fmp4.m3u8"
         // "https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116"
         // 'https://stream.ads.ottera.tv/playlist.m3u8?network_id=2116',
         );
