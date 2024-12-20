@@ -79,6 +79,7 @@ class _HLSPlayerPageState extends State<HLSPlayerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black,
       appBar: AppBar(
         title: const Text('HLS Player'),
       ),
