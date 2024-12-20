@@ -91,6 +91,7 @@ class _HLSPlayerPageState extends State<HLSPlayerPage> {
               )
             : const CircularProgressIndicator(),
       ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: FloatingActionButton(
         onPressed: _togglePlayPause,
         child: Icon(_isPlaying ? Icons.pause : Icons.play_arrow),
